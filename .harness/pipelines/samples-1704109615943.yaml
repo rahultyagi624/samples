@@ -21,7 +21,10 @@ pipeline:
                   identifier: echo
                   name: echo
                   spec:
-                    command: echo hello world
+                    shell: Sh
+                    command: |
+                      cd harness
+                      ls
                   timeout: ""
                   type: Run
               - step:
