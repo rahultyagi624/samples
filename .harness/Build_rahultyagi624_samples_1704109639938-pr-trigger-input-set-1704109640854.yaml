@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rahultyagi624_samples_1704109639938-pr-trigger-input-set
+  identifier: Build_rahultyagi624_samples_1704109639938prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: new_demo2
+  pipeline:
+    identifier: Build_rahultyagi624_samples_1704109639938
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
