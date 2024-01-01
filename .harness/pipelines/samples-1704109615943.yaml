@@ -23,7 +23,7 @@ pipeline:
                   spec:
                     shell: Sh
                     command: |
-                      cd harness
+                      cd /harness
                       ls
                   timeout: ""
                   type: Run
