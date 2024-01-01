@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rahultyagi624_samples_1704104035215-push-trigger-input-set
+  identifier: Build_rahultyagi624_samples_1704104035215pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dotnet_demo
+  pipeline:
+    identifier: Build_rahultyagi624_samples_1704104035215
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
