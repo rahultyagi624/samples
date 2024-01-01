@@ -30,9 +30,7 @@ pipeline:
                   identifier: Run_2
                   spec:
                     shell: Sh
-                    command: |-
-                      npm install
-                      npm run build
+                    command: npm install
           platform:
             os: Linux
             arch: Amd64
