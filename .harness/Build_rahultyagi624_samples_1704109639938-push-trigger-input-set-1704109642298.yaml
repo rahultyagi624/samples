@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rahultyagi624_samples_1704109639938-push-trigger-input-set
+  identifier: Build_rahultyagi624_samples_1704109639938pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: new_demo2
+  pipeline:
+    identifier: Build_rahultyagi624_samples_1704109639938
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
